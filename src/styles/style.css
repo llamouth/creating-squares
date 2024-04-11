@@ -1,0 +1,27 @@
+.container {
+  position: relative;
+  width: 1000px;
+  height: 700px;
+}
+.container .circle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.container button {
+  padding: 20px;
+  width: 250px;
+  border-radius: 5px;
+  font-size: 20px;
+  background: #D62E2E;
+  color: #fff;
+  box-shadow: 5px 5px 5px lightgray;
+}
+.container button:hover {
+  box-shadow: none;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
